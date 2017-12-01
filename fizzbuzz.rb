@@ -1,9 +1,9 @@
 def fizzbuzz(num)
   if num % 3 == 0 && num % 5 != 0
-    puts "Fizz"
+    return "Fizz"
   elsif num % 3 == 0 && num % 5 == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
   else
-    puts "Buzz"
+    return "Buzz"
   end
 end
